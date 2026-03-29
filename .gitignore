@@ -1,8 +1,40 @@
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production
 build/
 dist/
+.dist/
+
+# Environment variables (never commit!)
+.env
+.env.local
+.env.*.local
+
+# Testing
 coverage/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 .DS_Store
-*.log
-.env*
-!.env.example
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build outputs
+tsconfig.tsbuildinfo
+
+# Cache
+.eslintcache
+.stylelintcache
