@@ -1,0 +1,7 @@
+{
+  "name": "Advaita-Vani: Sanskrit Prosody Engine",
+  "description": "A prosody-aware Sanskrit recitation engine that converts text to audio and musical songs with strict adherence to Chandas (meter) and Svara (pitch).",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
